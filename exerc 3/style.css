@@ -1,12 +1,14 @@
 .conteudo{
     margin-left: 400px;
+    margin-top: -210px;
     background-color: firebrick;
     text-decoration-color: aquamarine;
     border-radius: 50px;
     text-align: justify;
     padding: 20px;
     float: right;
-    color: cornsilk;]
+    color: cornsilk;
+    font-size: 20px;
 }
 body{
     background-color: darksalmon;
@@ -23,7 +25,35 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+ul{
+    margin: 0;
+    background-color: firebrick;
+    border-radius: 50px;
+    list-style: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+li{
+    display: inline;
+}
+a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 
+}
+a:hover{
+    color: indianred;
+}
+#cornao{
+    border-radius: 50px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
 
 
 
