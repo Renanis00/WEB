@@ -1,0 +1,35 @@
+.conteudo{
+    margin-left: 400px;
+    background-color: firebrick;
+    text-decoration-color: aquamarine;
+    border-radius: 50px;
+    text-align: justify;
+    padding: 20px;
+    float: right;
+    color: cornsilk;]
+}
+body{
+    background-color: darksalmon;
+}
+.cabecalho{
+    background: firebrick;
+    border: solid 5px firebrick;
+    border-radius: 50px;
+}
+img{
+    width: 300px;
+    border-radius: 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
