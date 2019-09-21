@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Compra de veículo</title>
+</head>
+<body>
+<h1>Cálculo de preço</h1>
+<form action="carro2.php" method="get">
+
+    <label>Custo de fábrica do veículo</label> <br>
+    <label for="custo1">R$</label>              <input type="number" name="fab" id="custo1" required placeholder="Digite o preço..."></input><br><br>
+    <label>Porcentagem da distribuidora</label> <br>
+    <label for="custo2">%</label>               <input type="number" name="dist" id="custo2" required placeholder="Digite a porcentagem..."></input><br><br>
+    <label>Impostos</label> <br>
+    <label for="custo3">%</label>               <input type="number" name="imp" id="custo3" required placeholder="Digite a porcentagem..."></input><br><br>
+
+    <input type="submit" name="btnenviar" id="btnenviar" value="Calcular">
+</form>
+</body>
+</html>
